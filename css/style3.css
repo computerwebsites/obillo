@@ -1,0 +1,100 @@
+
+body {
+  background: lightblue;
+}
+.menu {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-gap: 40px;
+  height: 25vh;
+  line-height: 100px;
+  transition: all .3s ease;
+
+}
+a {
+  text-decoration: none;
+
+}
+li:hover {
+  color: white;
+  background-color: yellow;
+}
+li {
+  list-style: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  border: 2px black solid;
+  border-radius: 50px;
+  transition: all .3s ease;
+  background: orange;
+}
+.showcase {
+  margin-top: 5vh;
+  height: 60vh;
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-gap: 40px;
+}
+.left {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/solv.jpg);
+  background-repeat: no-repeat;
+  border: 4px black solid;
+}
+.right {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/solv2.jpg);
+  background-repeat: no-repeat;
+  border: 4px black solid;
+
+}
+.showcase2 {
+  margin-top: 5vh;
+
+  height: 60vh;
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-gap: 40px;
+}
+.left2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/solv3.jpg);
+  background-repeat: no-repeat;
+  border: 4px black solid;
+
+}
+.right2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/solv4.png);
+  background-repeat: no-repeat;
+  border: 4px black solid;
+
+}
+.showcase3 {
+  margin-top: 5vh;
+  height: 60vh;
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-gap: 40px;
+}
+.left3 {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/solv5.png);
+  background-repeat: no-repeat;
+  border: 4px black solid;
+
+}
+.right3 {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/solv6.png);
+  background-repeat: no-repeat;
+  border: 4px black solid;
+
+}

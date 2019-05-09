@@ -1,0 +1,53 @@
+
+body {
+  background: lightblue;
+}
+.menu {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-gap: 40px;
+  height: 25vh;
+  line-height: 100px;
+  transition: all .3s ease;
+
+}
+a {
+  text-decoration: none;
+
+}
+li:hover {
+  color: white;
+  background-color: yellow;
+}
+li {
+  list-style: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  border: 2px black solid;
+  border-radius: 50px;
+  transition: all .3s ease;
+  background: orange;
+
+}
+.author {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/aut.jpg);
+    background-repeat: no-repeat;
+    border: 4px black solid;
+    height: 100vh;
+}
+.art {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-gap: 40px;
+  border: 4px black solid;
+  text-align: center;
+  background: orange;
+}
+p {
+  color: green;
+  font-size: 2rem;
+}
